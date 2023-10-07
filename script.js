@@ -20,14 +20,13 @@ function callSheets(){
 function populateTable(data) {
     data.forEach((book) => {
         const row = document.createElement("tr");
-        console.log(book);
         // <td>${book[2].join("<br>")}</td>
         row.innerHTML = `
                     <td style="text-align: left">${book[0]}</td>
-                    <td><img src="images/${book[1]}" width="160" height="200"></td>
+                    <td><img src="${book[1]}" width="160" height="200"></td>
                     <td>${book[2]}</td>
                     <td width="360" height="200" style="text-align: left">${book[3]}</td>
-                    <td>${book[4] ? "✅" : "❌"}</td>
+                    <td>${book[4]=='1' ? "✅" : "❌"}</td>
                     `;
                     bookTableBody.appendChild(row);
                 });
