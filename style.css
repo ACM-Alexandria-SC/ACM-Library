@@ -17,7 +17,22 @@ header {
     background-color: #0074d9;
     color: #fff;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
     text-align: center;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+}
+
+.header-image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
 }
 
 h1 {
