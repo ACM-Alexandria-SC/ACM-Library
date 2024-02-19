@@ -22,6 +22,6 @@ const submissionLink = document.getElementById("submissionLink");
 
 submissionLink.addEventListener("click", function (e) {
     e.preventDefault();// prevent redirect to default
-    const googleFormURL = "https://docs.google.com/forms/d/e/1FAIpQLScUJJhHS3nSsYZo-6kHufEa7YuGw0dEIwOm_SUguR7xz3320A/viewform?usp=sf_link";
+    const googleFormURL = "https://docs.google.com/forms/d/e/1FAIpQLSebRFk6V4KoybWpvtqgcCa48kn6RGFh_qcdon-SQr2-6FU1DQ/viewform?usp=sf_link";
     window.open(googleFormURL, "_blank", "noopener noreferrer");
 });
